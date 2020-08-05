@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 *{
   margin:0;
   padding:0;
@@ -68,6 +71,70 @@ text-transform: uppercase;
   margin-left:19%;
   margin-bottom: 5px;
 }
+.bot{
+  width: 26%;
+  height: 26%;
+  margin-left: 37%;
+}
 .generalText{
   font-size: 16px;
+}
+.panel{
+  width: 100%;
+  height: 810px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #d6ed17ff;
+  border-left: none;
+  border-right: none;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.sideBar{
+  height: 100%;
+  width: 15%;
+  background-color: rgba(255, 255, 255, 0.01);
+  border-right: 1px solid rgba(214, 237, 23, 0.2);
+  text-transform:uppercase;
+  color: #ccffcc;
+}
+.sideBar header{
+  font-size: 25px;
+  text-align: center;
+  line-height: 150px;
+  color: #d6ed17ff;
+  background: rgba(255, 255, 255, 0.01);
+}
+.sideBar ul li{
+  position: relative;
+display: block;
+height: 100%;
+width: 100%;
+padding-top: 90px;
+font-size: 18px;
+vertical-align: bottom;
+padding-left: 10px;
+box-sizing: border-box;
+border-top: 1px solid rgba(214, 237, 23, 0.2);
+}
+.sideBar ul li Selection{
+padding-top:50px ;
+}
+.KhoaChibi{
+  background-image: url("KhoaChibi.jpg");
+
+}
+.KentChibi{
+  background-image: url("Kent.jpg");
+}
+.PhongChibi{
+  background-image: url("Phong.jpg");
+}
+.NhatChibi{
+  background-image: url("Nhat.jpg");
+}
+.TpChibi{
+  background-image: url("TeamProfile.jpg");
+}
+.IdealJob{
+  background-image: url("IdealJob.jpg");
 }
