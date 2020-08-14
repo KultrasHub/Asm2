@@ -23,7 +23,7 @@ function Select(index)
     document.getElementById('NameTextID').innerHTML="Phong";
     document.getElementById('NameTextID').style.color="#8ddc48";
     document.getElementById('DisplayID').style.backgroundImage="url('PhongPose.jpg')";
-    document.getElementById('GradientLineID').style.backgroundImage='linear-gradient(to right,#d4d8fa, #000)';
+    document.getElementById('GradientLineID').style.backgroundImage='linear-gradient(to right,#8ddc48, #000)';
     document.getElementById('StudentID').innerHTML="ID: S.....";
     document.getElementById('ContentID').innerHTML="hi im Phong";
   }
