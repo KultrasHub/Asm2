@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <div class ="container">
     <nav class ="navbar">
       <ul>
@@ -36,14 +37,14 @@
             Crafty Circus
           </header>
           <ul>
-            <li class="KhoaChibi">
+            <li onclick="Select(1)" class="KhoaChibi">
               <Selection >Khoa</Selection>
             </li>
-            <li class="KentChibi">
+            <li onclick="Select(2)" class="KentChibi">
               <Selection>Khang</Selection></li>
-              <li class="PhongChibi">
+              <li onclick="Select(3)" class="PhongChibi">
               <Selection>Phong</Selection></li>
-              <li class="NhatChibi">
+              <li  onclick="Select(4)" class="NhatChibi">
               <Selection>Nhat</Selection></li>
               <li class="TpChibi">
               <Selection>Team Profile</Selection></li>
@@ -52,11 +53,11 @@
           </ul>
         </div>
         <div class="contentPanel">
-          <div class="PictureShow">
-            <h1 class="NameTitle"> Tran Nguyen Anh Khoa</h1>
-            <p class="GradientLine"></p>
-            <p class="IDContent">ID: S3863956</p>
-            <p class="content"> Born and raised in a tranquill city, Dalat, I don't usually lose my temper. I could stay calm in most situations and don't really care what people think of me. However, I am always a curious boy, I often fantasize about living in a sci-fi worlds and visual worlds. I love watching movies of the fantasy future and hold the desire of creating my own imaginary world where people enjoy. <br> <br> I have a great enthusiasm and interest in space and cartoon, for that, I am extremely into sci-fi tales from movies or books. Additionally, I consider myself a crafty person, I made dragons, soliders out of paper because it fulfilled my desire. However, papercrafting seems a bit off for a 18 years old boy so I changed to game development. To be honest, I love making video games, when I first started it with unity I realise what my purpose is. I have over twenty projects, though the majority of them is abandoned I completed some. Then I receive many compliments of the games but I don't consider it a success. Therefore, I will still try at least till I get the achievement that satisfy me. </p>
+          <div id="DisplayID" class="PictureShow">
+            <h1 id="NameTextID" class="NameTitle"> Tran Nguyen Anh Khoa</h1>
+            <p id="GradientLineID"class="GradientLine"></p>
+            <p id="StudentID"class="IDContent">ID: S3863956</p>
+            <p id="ContentID"class="content"> Born and raised in a tranquill city, Dalat, I don't usually lose my temper. I could stay calm in most situations and don't really care what people think of me. However, I am always a curious boy, I often fantasize about living in a sci-fi worlds and visual worlds. I love watching movies of the fantasy future and hold the desire of creating my own imaginary world where people enjoy. <br> <br> I have a great enthusiasm and interest in space and cartoon, for that, I am extremely into sci-fi tales from movies or books. Additionally, I consider myself a crafty person, I made dragons, soliders out of paper because it fulfilled my desire. However, papercrafting seems a bit off for a 18 years old boy so I changed to game development. To be honest, I love making video games, when I first started it with unity I realise what my purpose is. I have over twenty projects, though the majority of them is abandoned I completed some. Then I receive many compliments of the games but I don't consider it a success. Therefore, I will still try at least till I get the achievement that satisfy me. </p>
           </div>
           </div>
         </div>
@@ -88,5 +89,8 @@
     </section>
     </section>
   </div>
+  <script src="KhoaJavaScript.js">
+
+  </script>
 </body>
 </html>
