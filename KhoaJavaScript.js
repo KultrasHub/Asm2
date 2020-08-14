@@ -11,21 +11,21 @@ function Select(index)
   }
   if(index==2)
   {
-    document.getElementById('NameTextID').innerHTML="Khang";
+    document.getElementById('NameTextID').innerHTML="Lu Minh Khang";
     document.getElementById('NameTextID').style.color="#ea613b";
     document.getElementById('DisplayID').style.backgroundImage="url('KentPose.jpg')";
     document.getElementById('GradientLineID').style.backgroundImage='linear-gradient(to right,#ea613b, #000)';
-    document.getElementById('StudentID').innerHTML="ID: S.....";
-    document.getElementById('ContentID').innerHTML="Hi Im Khang";
+    document.getElementById('StudentID').innerHTML="ID: S3863969";
+    document.getElementById('ContentID').innerHTML="Ayyo wassup! My name is Lu Minh Khang but you can call me Kent for short. My student ID is just after this 2 dots mark: S3863969. Sharing a little bit about myself, I like made rap, mixed beat, and of course sport is on the list too especially badminton. The story of how I get my attention in IT was started from a movie named “Mission Impossible” and a person in that movie name Benji Dunn was inspired me a lot since then I started to learn more about the world of technology and virtual numbers. I also have many good experiences in IT especially programming software and web-design (I study full-stack so front-end and back-end are both my fields). After all that time of experiencing and updating knowledge about this field, I learned that the world and people are only gorillas without technology. That's a bit of information about myself. This is Kent from the Crafty Circus team with hip hop and love.";
   }
   if(index==3)
   {
-    document.getElementById('NameTextID').innerHTML="Phong";
+    document.getElementById('NameTextID').innerHTML="Ho Buu Quoc Phong";
     document.getElementById('NameTextID').style.color="#8ddc48";
     document.getElementById('DisplayID').style.backgroundImage="url('PhongPose.jpg')";
     document.getElementById('GradientLineID').style.backgroundImage='linear-gradient(to right,#8ddc48, #000)';
-    document.getElementById('StudentID').innerHTML="ID: S.....";
-    document.getElementById('ContentID').innerHTML="hi im Phong";
+    document.getElementById('StudentID').innerHTML="ID: S3803566";
+    document.getElementById('ContentID').innerHTML="I am currently a Vietnamese student studying Information Technology in RMIT University Vietnam aiming to become a programmer in the near future, my student number is S3803566, my email address is s3803566@rmit.edu.vn. The languages that I know currently are English and Vietnamese. I used to study in Canada (Toronto) in York University as a Psychology student before coming back to Vietnam pursuing I.T. My hobbies include reading and playing the piano. I was brought into the computer world because of my brother at a very young age, not only that but I have always been fascinated on the technologies that we humans had and still developing, we are already at the time when human necessities are easily provided by just a click of a mouse or a tap on the phone.";
   }
   if(index==4)
   {

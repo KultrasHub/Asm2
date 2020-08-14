@@ -121,23 +121,80 @@ border-top: 1px solid rgba(214, 237, 23, 0.2);
 padding-top:50px ;
 }
 .KhoaChibi{
+  -webkit-filter: brightness(40%);
   background-image: url("KhoaChibi.jpg");
-
 }
+
+.KhoaChibi:hover{
+  -webkit-filter: brightness(150%);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
 .KentChibi{
+  -webkit-filter: brightness(40%);
   background-image: url("Kent.jpg");
 }
+
+.KentChibi:hover{
+  -webkit-filter: brightness(150%);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
 .PhongChibi{
+  -webkit-filter: brightness(40%);
   background-image: url("Phong.jpg");
 }
+.PhongChibi:hover{
+  -webkit-filter: brightness(150%);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
 .NhatChibi{
+  -webkit-filter: brightness(40%);
   background-image: url("Nhat.jpg");
 }
+.NhatChibi:hover{
+  -webkit-filter: brightness(150%);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
 .TpChibi{
+  -webkit-filter: brightness(40%);
   background-image: url("TeamProfile.jpg");
 }
+.TpChibi:hover{
+  -webkit-filter: brightness(150%);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
 .IdealJob{
+  -webkit-filter: brightness(40%);
   background-image: url("IdealJob.jpg");
+}
+.IdealJob:hover{
+  -webkit-filter: brightness(150%);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
 }
 .contentPanel{
   width: inherit;
