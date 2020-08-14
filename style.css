@@ -80,6 +80,7 @@ text-transform: uppercase;
   font-size: 16px;
 }
 .panel{
+  position: relative;
   width: 100%;
   height: 803px;
   background-color: rgba(0, 0, 0, 0.4);
@@ -88,6 +89,7 @@ text-transform: uppercase;
   border-right: none;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  z-index: 10;
 }
 .sideBar{
   height: 100%;
@@ -104,6 +106,7 @@ text-transform: uppercase;
   line-height: 150px;
   color: #d6ed17ff;
   background: rgba(255, 255, 255, 0.01);
+  z-index: 12;
 }
 .sideBar ul li{
 position: relative;
@@ -116,6 +119,7 @@ vertical-align: bottom;
 padding-left: 10px;
 box-sizing: border-box;
 border-top: 1px solid rgba(214, 237, 23, 0.2);
+z-index: 10;
 }
 .sideBar ul li Selection{
 padding-top:50px ;
@@ -123,6 +127,7 @@ padding-top:50px ;
 .KhoaChibi{
   -webkit-filter: brightness(40%);
   background-image: url("KhoaChibi.jpg");
+
 }
 
 .KhoaChibi:hover{
@@ -133,7 +138,6 @@ padding-top:50px ;
     -ms-transition: all .5s ease;
     transition: all .5s ease;
 }
-
 .KentChibi{
   -webkit-filter: brightness(40%);
   background-image: url("Kent.jpg");
@@ -199,16 +203,25 @@ padding-top:50px ;
 .contentPanel{
   width: inherit;
   height:inherit;
+  z-index: 1;
+}
+#AchievementID {
+  position:absolute;
+  top:0;
+  left: 15%;
+height: inherit;
+width: 85%;
+z-index: 2;
 }
 .PictureShow{
   width: inherit;
   height:inherit;
-  background-image:url("KhoaPose.jpg");
+  background-image:url("PennyWise.jpg");
 }
 .NameTitle{
   padding-top: 150px;
 margin-left: 275px;
-color: #d4d8fa;
+color: #77ab3c;
 font-size: 50px;
 line-height: 70px;
 }
@@ -216,7 +229,7 @@ line-height: 70px;
   margin-left: 275px;
   height: 5px;
   width: 300px;
-background-image: linear-gradient(to right,#d4d8fa, #000);
+background-image: linear-gradient(to right,#7c0200, #03342e,#03211c,#7d9267,#657b50);
 }
 .IDContent{
   margin-top: 10px;
