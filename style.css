@@ -81,7 +81,7 @@ text-transform: uppercase;
 }
 .panel{
   width: 100%;
-  height: 810px;
+  height: 803px;
   background-color: rgba(0, 0, 0, 0.4);
   border: 1px solid #d6ed17ff;
   border-left: none;
@@ -92,6 +92,7 @@ text-transform: uppercase;
 .sideBar{
   height: 100%;
   width: 15%;
+  float:left;
   background-color: rgba(255, 255, 255, 0.01);
   border-right: 1px solid rgba(214, 237, 23, 0.2);
   text-transform:uppercase;
@@ -105,7 +106,7 @@ text-transform: uppercase;
   background: rgba(255, 255, 255, 0.01);
 }
 .sideBar ul li{
-  position: relative;
+position: relative;
 display: block;
 height: 100%;
 width: 100%;
@@ -137,4 +138,39 @@ padding-top:50px ;
 }
 .IdealJob{
   background-image: url("IdealJob.jpg");
+}
+.contentPanel{
+  width: inherit;
+  height:inherit;
+}
+.PictureShow{
+  width: inherit;
+  height:inherit;
+  background-image:url("KhoaPose.jpg");
+}
+.NameTitle{
+  padding-top: 150px;
+margin-left: 275px;
+color: #d4d8fa;
+font-size: 50px;
+line-height: 70px;
+}
+.GradientLine{
+  margin-left: 275px;
+  height: 5px;
+  width: 300px;
+background-image: linear-gradient(to right,#d4d8fa, #000);
+}
+.IDContent{
+  margin-top: 10px;
+  margin-left: 275px;
+  font-size: 20px;
+  color: gold;
+}
+.content{
+  margin-top: 10px;
+  margin-left: 275px;
+  font-size: 14px;
+  line-height: 1.5;
+  width:500px;
 }
