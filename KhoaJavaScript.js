@@ -3,6 +3,7 @@ function Select(index)
   if(index==0)
   {
     document.getElementById('ContentPanelID').style.opacity="1";
+    document.getElementById('AchievementID').style.opacity="0";
     document.getElementById('NameTextID').innerHTML="Crafty Circus";
     document.getElementById('NameTextID').style.color="#77ab3c";
     document.getElementById('DisplayID').style.backgroundImage="url('PennyWise.jpg')";
@@ -13,6 +14,7 @@ function Select(index)
   if(index==1)
   {
     document.getElementById('ContentPanelID').style.opacity="1";
+    document.getElementById('AchievementID').style.opacity="0";
     document.getElementById('NameTextID').innerHTML="Tran Nguyen Anh Khoa";
     document.getElementById('NameTextID').style.color="#d4d8fa";
     document.getElementById('DisplayID').style.backgroundImage="url('KhoaPose.jpg')";
@@ -23,6 +25,7 @@ function Select(index)
   if(index==2)
   {
     document.getElementById('ContentPanelID').style.opacity="1";
+    document.getElementById('AchievementID').style.opacity="0";
     document.getElementById('NameTextID').innerHTML="Lu Minh Khang";
     document.getElementById('NameTextID').style.color="#ea613b";
     document.getElementById('DisplayID').style.backgroundImage="url('KentPose.jpg')";
@@ -33,6 +36,7 @@ function Select(index)
   if(index==3)
   {
     document.getElementById('ContentPanelID').style.opacity="1";
+    document.getElementById('AchievementID').style.opacity="0";
     document.getElementById('NameTextID').innerHTML="Ho Buu Quoc Phong";
     document.getElementById('NameTextID').style.color="#8ddc48";
     document.getElementById('DisplayID').style.backgroundImage="url('PhongPose.jpg')";
@@ -43,6 +47,7 @@ function Select(index)
   if(index==4)
   {
     document.getElementById('ContentPanelID').style.opacity="1";
+    document.getElementById('AchievementID').style.opacity="0";
     document.getElementById('NameTextID').innerHTML="Nguyen Hoang Minh Nhat";
     document.getElementById('NameTextID').style.color="#f4c6d6";
     document.getElementById('DisplayID').style.backgroundImage="url('NhatPose.jpg')";
@@ -52,6 +57,7 @@ function Select(index)
   }
   if(index==5)
   {
-      //document.getElementById('ContentPanelID').style.opacity="0";
+      document.getElementById('ContentPanelID').style.opacity="0";
+      document.getElementById('AchievementID').style.opacity="1";
   }
 }

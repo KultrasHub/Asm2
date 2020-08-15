@@ -20,7 +20,7 @@ body {
 .navbar{
   position: fixed;
   top:0;
-  z-index: 1;
+  z-index: 100;
   display: flex;
   width:100%;
   height: 60px;
@@ -206,12 +206,68 @@ padding-top:50px ;
   z-index: 1;
 }
 #AchievementID {
+  opacity: 0;
   position:absolute;
   top:0;
   left: 15%;
 height: inherit;
 width: 85%;
 z-index: 2;
+}
+.Achiecontainer{
+
+  position:relative;
+  float:  left;
+  width: 40%;
+  padding-top: 5%;
+  padding-left: 7%;
+  height: auto;
+  z-index: 3;
+}
+#AchievementID img{
+  width: 100%;
+  border-bottom: 20px solid black;
+  box-shadow: 20px 20px 20px rgba(0,0,0,0.5);
+z-index: 1;
+}
+#AchievementID container:hover p{
+opacity: 1;
+}
+#AchievementID p1{
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 10%;
+  padding: 5% 5%;
+  top:0;
+  bottom:0;
+  right:0;
+  width: 5%;
+  z-index: 5;
+  opacity: 1;
+  background-color: rgba(0,0,0,.7);
+  height: auto;
+  text-align: center;
+  font-size: 40px;
+}
+#AchievementID p{
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 10%;
+  padding: 5% 5%;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  width: auto;
+  z-index: 5;
+  opacity: 0;
+   background-color: black;
+  height: auto;
+  border-bottom: 20px solid black;
+  box-shadow: 20px 20px 20px rgba(0,0,0,0.5);
+  transition: .5s ease;
+  text-align: left;
+  font-size: 12px;
 }
 .PictureShow{
   width: inherit;
