@@ -473,7 +473,7 @@ height: inherit;
   height: 70%;
   width: 90%;
 }
-.DescriptionTag li{
+.DescriptionTag div li{
   position: relative;
   list-style: disc;
   display: list-item;
