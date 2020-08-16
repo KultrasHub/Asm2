@@ -300,3 +300,169 @@ background-image: linear-gradient(to right,#7c0200, #03342e,#03211c,#7d9267,#657
   line-height: 1.5;
   width:500px;
 }
+.LineCut{
+  position: relative;
+  margin-top: 20px;
+  background-color: rgba(255,255,255,1);
+  height: 400px;
+  width: 98%;
+  margin-left: 1%;
+  border-top: 1px solid rgba(255,255,255,.95);
+  color: black;
+}
+.NameTag{
+  position: relative;
+  width: 20%;
+  display: block;
+  float:left;
+height: inherit;
+}
+.NameTag b{
+  position: absolute;
+  top: 70px;
+  font-size: 50px;
+  padding: 10px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+.NameTag strong{
+  position: absolute;
+  top: 120px;
+  font-size: 14px;
+  padding: 10px;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+.NameTag p{
+  position: absolute;
+  bottom: 15px;
+  font-size: 14px;
+  padding: 10px;
+  margin-top: 70px;
+  margin-left: 10px;
+}
+.NameTag div{
+  position: absolute;
+  bottom: 14px;
+  height: 8px;
+  width: 150px;
+  background-image:linear-gradient(to right, #c0392b,#8e44ad);
+
+  margin-top: 70px;
+  margin-left: 40px;
+}
+.WebsiteTag{
+  width: 35%;
+  display: block;
+  float:left;
+  height: inherit;
+}
+.WebsiteTag tagName{
+  position: absolute;
+  top: 15px;
+  left: 20%;
+  text-transform: uppercase;
+  font-weight: bold;
+  float:left;
+}
+.WebsiteTag tagLine{
+  position: absolute;
+  top: 35px;
+  left: 20%;
+  height: 5px;
+  width: 70px;
+  margin-left: 10px;
+  background-image: linear-gradient(to right,#a9f1df, #ffbbbb);
+  float:left;
+}
+.WebsiteTag img{
+  position: relative;
+  margin-top: 10%;
+  width: 19.3%;
+  margin-left: .7%;
+  height: 70%;
+  display: block;;
+  float: left;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.9);
+}
+.WebsiteTag name{
+  position: relative;
+  float:left;
+  bottom: -10px;
+  left: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.WebsiteTag name p{
+  display: block;
+  float:left;
+  margin-right: 35px;
+}
+.GitHubTag{
+  width: 15%;
+  display: block;
+  float:left;
+  height: inherit;
+}
+.GitHubTag tagName{
+  position: absolute;
+  left: 55%;
+  top: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  float:left;
+}
+.GitHubTag tagLine{
+  position: absolute;
+  top: 35px;
+  left: 55%;
+  height: 5px;
+  width: 70px;
+  margin-left: 10px;
+  background-image: linear-gradient(to right,#a9f1df, #ffbbbb);
+  float:left;
+}
+.GitHubTag img{
+  position: relative;
+  margin-top: 23.5%;
+  margin-left: 5%;
+  width:90%;
+  height: 70%;
+  display: block;
+  float: left;
+  background-color: green;
+  box-shadow: 5px 5px 2px rgba(0,0,0,0.9);
+}
+.GitHubTag p{
+  position: relative;
+  float:left;
+  bottom: -10px;
+  left: 20px;
+  margin-right: 37px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.DescriptionTag{
+  width: 30%;
+  display: block;
+  float:left;
+height: inherit;
+}
+.DescriptionTag tagName{
+  position: absolute;
+  top: 15px;
+  left: 70%;
+  text-transform: uppercase;
+  font-weight: bold;
+  float:left;
+}
+.DescriptionTag tagLine{
+  position: absolute;
+  top: 35px;
+  left: 70%;
+  height: 5px;
+  width: 140px;
+  margin-left: 10px;
+  background-image: linear-gradient(to right,#a9f1df, #ffbbbb);
+  float:left;
+}
