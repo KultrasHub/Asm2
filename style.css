@@ -385,6 +385,9 @@ height: inherit;
   float: left;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.9);
 }
+.WebsiteTag img:hover{
+  filter:brightness(80%);
+}
 .WebsiteTag name{
   position: relative;
   float:left;
@@ -431,6 +434,9 @@ height: inherit;
   display: block;
   float: left;
   box-shadow: 5px 5px 2px rgba(0,0,0,0.9);
+}
+.GitHubTag img:hover{
+  filter:brightness(80%);
 }
 .GitHubTag p{
   position: relative;
@@ -481,4 +487,17 @@ height: inherit;
   margin-left: 5%;
   width:90%;
   float: left;
+}
+#IndustryData{
+  margin-top: 100px;
+  height: 1000px;
+  width: 100%;
+  background-color:rgba(0,0,0,.5);
+  transform: skewY(6deg);
+  border-top: 3px solid rgba(255,255,255,.3);
+}
+.recovery{
+  transform: skewY(-6deg);
+  margin-top: 80px;
+  height: 80%;
 }

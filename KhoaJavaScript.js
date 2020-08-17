@@ -26,7 +26,7 @@ function Select(index)
   {
     document.getElementById('ContentPanelID').style.opacity="1";
     document.getElementById('AchievementID').style.opacity="0";
-    document.getElementById('NameTextID').innerHTML="Lu Minh Khang";
+    document.getElementById('NameTextID').innerHTML="Lu Minh Khang (Kent)";
     document.getElementById('NameTextID').style.color="#ea613b";
     document.getElementById('DisplayID').style.backgroundImage="url('KentPose.jpg')";
     document.getElementById('GradientLineID').style.backgroundImage='linear-gradient(to right,#ea613b, #000)';
