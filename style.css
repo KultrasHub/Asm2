@@ -210,12 +210,11 @@ padding-top:50px ;
   position:absolute;
   top:0;
   left: 15%;
-height: inherit;
-width: 85%;
-z-index: 2;
+  height: inherit;
+  width: 85%;
+  z-index: 2;
 }
 .Achiecontainer{
-
   position:relative;
   float:  left;
   width: 40%;
@@ -228,10 +227,10 @@ z-index: 2;
   width: 100%;
   border-bottom: 20px solid black;
   box-shadow: 20px 20px 20px rgba(0,0,0,0.5);
-z-index: 1;
+  z-index: 1;
 }
 #AchievementID container:hover p{
-opacity: 1;
+  opacity: 1;
 }
 #AchievementID p1{
   position: absolute;
@@ -274,6 +273,104 @@ opacity: 1;
   text-align: left;
   font-size: 12px;
 }
+#IdealJobTab{
+  position: absolute;
+  top:0;
+  left: 15%;
+  height: inherit;
+  width: 85%;
+  z-index: 0;
+  opacity: 0;
+}
+#IdealJobTab div{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+#IdealJobTab div speechBubble{
+  position: absolute;
+    background-color: #26272b;
+		color: white;
+		font-size: 12px;
+		line-height: 1.1;
+    padding: 15px 25px;
+    max-width: 41.5%;
+    cursor: default;
+}
+#IdealJobTab div speechBubble:nth-child(2n+1){
+  border-right: 5px solid
+}
+#IdealJobTab div speechBubble:nth-child(2n+1)::after{
+  content: '';
+				margin-top: -30px;
+				padding-top: 0px;
+				position: relative;
+				bottom: -45px;
+				left: 20px;
+				border-width: 30px 0 0 30px;
+				border-style: solid;
+				border-color: #26272b transparent;
+				display: block;
+				width: 0;
+}
+#IdealJobTab div speechBubble:nth-child(2n){
+  border-left: 5px solid
+}
+#IdealJobTab div speechBubble:nth-child(2n)::after{
+  content: '';
+				margin-top: -30px;
+				padding-top: 0px;
+				position: relative;
+				bottom: -45px;
+				left: 20px;
+				border-width: 30px 0 0 30px;
+				border-style: solid;
+				border-color: #26272b transparent;
+				display: block;
+				width: 0;
+}
+#IdealJobTab div speechBubble:nth-child(4n+1)
+{
+  border-color:#01AD9B;
+  top: 3%;
+  left: 3%;
+}
+#IdealJobTab div speechBubble:nth-child(4n+2)
+{
+  border-color: #ff8750;
+  top:10%;
+  right: 3%;
+}
+#IdealJobTab div speechBubble:nth-child(4n+3)
+{
+  border-color: #56b273;
+  top: 48%;
+  left: 3%;
+}
+#IdealJobTab div speechBubble:nth-child(4n+4)
+{
+  border-color: #b388dd;
+  top: 55%;
+  right: 3%;
+}
+#IdealJobTab div speechBubble p::before{
+  content: "“";
+		font-family: Georgia;
+		font-size: 40px;
+		 line-height: 0;
+		 display: inline-block;
+		display: -webkit-inline-box;
+    padding-top: 2%;
+}
+#IdealJobTab div speechBubble userName{
+  display: inline;
+  font-size: 16px;
+	font-style: italic;
+  float: right;
+}
+#IdealJobTab div speechBubble userName::before{
+  content: "-";
+}
 .PictureShow{
   width: inherit;
   height:inherit;
@@ -281,16 +378,16 @@ opacity: 1;
 }
 .NameTitle{
   padding-top: 150px;
-margin-left: 275px;
-color: #77ab3c;
-font-size: 50px;
-line-height: 70px;
+  margin-left: 275px;
+  color: #77ab3c;
+  font-size: 50px;
+  line-height: 70px;
 }
 .GradientLine{
   margin-left: 275px;
   height: 5px;
   width: 300px;
-background-image: linear-gradient(to right,#7c0200, #03342e,#03211c,#7d9267,#657b50);
+  background-image: linear-gradient(to right,#7c0200, #03342e,#03211c,#7d9267,#657b50);
 }
 .IDContent{
   margin-top: 10px;
@@ -320,7 +417,7 @@ background-image: linear-gradient(to right,#7c0200, #03342e,#03211c,#7d9267,#657
   width: 20%;
   display: block;
   float:left;
-height: inherit;
+  height: inherit;
 }
 .NameTag b{
   position: absolute;
@@ -456,7 +553,7 @@ height: inherit;
   width: 30%;
   display: block;
   float:left;
-height: inherit;
+  height: inherit;
 }
 .DescriptionTag tagName{
   position: absolute;
@@ -495,7 +592,7 @@ height: inherit;
 }
 #IndustryData{
   margin-top: 100px;
-  height: 1000px;
+  height: 700px;
   width: 100%;
   background-color:rgba(0,0,0,.5);
   transform: skewY(6deg);

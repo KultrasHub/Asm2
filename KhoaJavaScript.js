@@ -2,6 +2,7 @@ function Select(index)
 {
   if(index==0)
   {
+    document.getElementById('IdealJobTab').style.opacity="0";
     document.getElementById('ContentPanelID').style.opacity="1";
     document.getElementById('AchievementID').style.opacity="0";
     document.getElementById('NameTextID').innerHTML="Crafty Circus";
@@ -13,6 +14,7 @@ function Select(index)
   }
   if(index==1)
   {
+    document.getElementById('IdealJobTab').style.opacity="0";
     document.getElementById('ContentPanelID').style.opacity="1";
     document.getElementById('AchievementID').style.opacity="0";
     document.getElementById('NameTextID').innerHTML="Tran Nguyen Anh Khoa";
@@ -24,6 +26,7 @@ function Select(index)
   }
   if(index==2)
   {
+    document.getElementById('IdealJobTab').style.opacity="0";
     document.getElementById('ContentPanelID').style.opacity="1";
     document.getElementById('AchievementID').style.opacity="0";
     document.getElementById('NameTextID').innerHTML="Lu Minh Khang (Kent)";
@@ -35,6 +38,7 @@ function Select(index)
   }
   if(index==3)
   {
+    document.getElementById('IdealJobTab').style.opacity="0";
     document.getElementById('ContentPanelID').style.opacity="1";
     document.getElementById('AchievementID').style.opacity="0";
     document.getElementById('NameTextID').innerHTML="Ho Buu Quoc Phong";
@@ -46,6 +50,7 @@ function Select(index)
   }
   if(index==4)
   {
+    document.getElementById('IdealJobTab').style.opacity="0";
     document.getElementById('ContentPanelID').style.opacity="1";
     document.getElementById('AchievementID').style.opacity="0";
     document.getElementById('NameTextID').innerHTML="Nguyen Hoang Minh Nhat";
@@ -59,5 +64,12 @@ function Select(index)
   {
       document.getElementById('ContentPanelID').style.opacity="0";
       document.getElementById('AchievementID').style.opacity="1";
+      document.getElementById('IdealJobTab').style.opacity="0";
+  }
+  if(index==6)
+  {
+      document.getElementById('ContentPanelID').style.opacity="0";
+      document.getElementById('AchievementID').style.opacity="0";
+      document.getElementById('IdealJobTab').style.opacity="1";
   }
 }
