@@ -618,6 +618,11 @@ padding-top:50px ;
   line-height: 1.3;
   margin-bottom: 20px;
 }
+.recovery img{
+  display: block;
+  float: right;
+  margin-right: 10%;
+}
 .gradientMap{
   margin-top: 10px;
   margin-left: 1%;
@@ -648,13 +653,18 @@ padding-top:50px ;
 .secondRecovery container{
   position:absolute;
   top:100px;
+  right:0;
+  max-width: 50%;
+}
+.secondRecovery img{
+  display: block;
+  float: left;
+  margin-left: 10%;
 }
 .secondRecovery p{
   font-size: 14px;
-  margin-left: 50%;
   margin-right: 3%;
   line-height: 1.3;
-  margin-bottom: 20px;
 }
 .secondgradientMap
 {
@@ -665,4 +675,30 @@ padding-top:50px ;
   margin-bottom: 40px;
   height: 4px;
   background-image:linear-gradient(to right,#276274,#33C58E,#63fd88);
+}
+.IndividualChanging{
+  position:relative;
+  width:100%;
+}
+
+.IndividualChanging div{
+  position: relative;
+  display: block;
+  float: left;
+  margin:0 1%;
+  background-color: #161719;
+  width:23%;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #000000;
+  color: #9fa2a7;
+}
+.IndividualChanging div p{
+  padding: 10% 5%;
+  font-size: 14px;
+}
+.IndividualChanging div h3{
+  position: absolute;
+  top: 5px;
+  left: 40%;
 }

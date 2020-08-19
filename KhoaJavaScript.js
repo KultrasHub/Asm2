@@ -9,7 +9,7 @@ function Select(index)
     document.getElementById('NameTextID').style.color="#77ab3c";
     document.getElementById('DisplayID').style.backgroundImage="url('PennyWise.jpg')";
     document.getElementById('GradientLineID').style.backgroundImage='linear-gradient(to right,#7c0200, #03342e,#03211c,#7d9267,#657b50)';
-    document.getElementById('StudentID').innerHTML="You'll float too";
+    document.getElementById('StudentID').innerHTML="It took university for us to do comedy";
     document.getElementById('ContentID').innerHTML="Crafty Circus is an organization founded during the Covid-19 pandemic, carrying the shared hope of 4 young men, but nothing about the covid. <br><br>(Clear throat..) <br> We bring joy and memorable moment to readers and that's why we are crafty circus. <br> <br>⇦For more information check on our Clowns.";
   }
   if(index==1)
