@@ -740,6 +740,7 @@ padding-top:50px ;
   color: white;
   transition: all 0.7s;
   font-size: 20px;
+  z-index: 3;
 }
 .Slide .next:hover, .Slide .prev:hover{
   opacity: 1;
