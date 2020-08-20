@@ -6,11 +6,11 @@ function Select(index)
     document.getElementById('ContentPanelID').style.opacity="1";
     document.getElementById('AchievementID').style.opacity="0";
     document.getElementById('NameTextID').innerHTML="Crafty Circus";
-    document.getElementById('NameTextID').style.color="#77ab3c";
+    document.getElementById('NameTextID').style.color="#bff098";
     document.getElementById('DisplayID').style.backgroundImage="url('PennyWise.jpg')";
-    document.getElementById('GradientLineID').style.backgroundImage='linear-gradient(to right,#7c0200, #03342e,#03211c,#7d9267,#657b50)';
+    document.getElementById('GradientLineID').style.backgroundImage='linear-gradient(to right,#d885ff,#1eae98)';
     document.getElementById('StudentID').innerHTML="It took university for us to do comedy";
-    document.getElementById('ContentID').innerHTML="Crafty Circus is an organization founded during the Covid-19 pandemic, carrying the shared hope of 4 young men, but nothing about the covid. <br><br>(Clear throat..) <br> We bring joy and memorable moment to readers and that's why we are crafty circus. <br> <br>⇦For more information check on our Clowns.";
+    document.getElementById('ContentID').innerHTML="Crafty Circus is an organization founded during the Covid-19 pandemic, carrying the shared hope of 4 young men, but nothing about the covid. <br><br>(Clear throat..) <br> We bring joy and memorable moment to readers and that's why we are crafty circus. <br> <br>⇦For more information check on our creators'profile.";
   }
   if(index==1)
   {
@@ -22,7 +22,7 @@ function Select(index)
     document.getElementById('DisplayID').style.backgroundImage="url('KhoaPose.jpg')";
     document.getElementById('GradientLineID').style.backgroundImage='linear-gradient(to right,#d4d8fa, #000)';
     document.getElementById('StudentID').innerHTML="ID: S3863956";
-    document.getElementById('ContentID').innerHTML="Born and raised in a tranquill city, Dalat, I don't usually lose my temper. I could stay calm in most situations and don't really care what people think of me. However, I am always a curious boy, I often fantasize about living in a sci-fi worlds and visual worlds. I love watching movies of the fantasy future and hold the desire of creating my own imaginary world where people enjoy. <br> <br> I have a great enthusiasm and interest in space and cartoon, for that, I am extremely into sci-fi tales from movies or books. Additionally, I consider myself a crafty person, as a child, I made dragons, soliders out of paper because it fulfilled my desire. However, papercrafting seems a bit off for a 18 years old boy so I changed to game development. To be honest, I love making video games, when I first started it with unity I realise what my purpose is. I have over twenty projects, though the majority of them is abandoned, I completed some. Then I receive many compliments of the games but I don't consider it a success. Therefore, I will still try at least till I get the achievement that satisfies me.";
+    document.getElementById('ContentID').innerHTML="Born and raised in a tranquill city, Dalat, I don't usually lose my temper. I could stay calm in most situations and don't really care what people think of me. However, I am always a curious boy, I often fantasize about living in a sci-fi worlds and visual worlds. I love watching movies of the fantasy future and hold the desire of creating my own imaginary world where people enjoy. <br> <br> I have a great enthusiasm and interest in space and cartoon, for that, I am extremely into sci-fi tales from movies or books. Additionally, I consider myself a crafty person, as a child, I made dragons, soliders out of paper because it fulfilled my desire. However, papercrafting seems a bit off for a 18 years old boy so I changed to game development. To be honest, I love making video games, when I first started it with unity I realised what my purpose is. I have over twenty projects, though the majority of them is abandoned, I completed some. Then I received many compliments of the games but I have not consider it a success. Therefore, I will still follow this path to the end.";
   }
   if(index==2)
   {
