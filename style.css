@@ -978,7 +978,7 @@ padding-top:50px ;
   margin-top: 40px;
   position:relative;
   width: 100%;
-  height: 670px;
+  height: 600px;
 }
 #FeedBack .selection{
   width:50%;
@@ -1108,4 +1108,128 @@ padding-top:50px ;
   font-size: 16px;
   font-style: italic;
   float: right;
+}
+#member4 {
+  margin-top: 10px;
+  background-color: #222;
+}
+.motiveBG{
+
+  width: 100%;
+  margin-top: 50px;
+  background-color: #222;
+}
+.ReflectionCall{
+  position:relative;
+}
+.ReflectionCall div{
+  width: 64%;
+  border-bottom: 1px solid #9fa2a7;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ReflectionCall p{
+  text-align: center;
+  font-size: 10px;
+  color: #9fa2a7;
+  text-transform: uppercase;
+}
+#GroupReflection h1{
+  text-align: center;
+  padding-top: 15px;
+  color: #d6ed17ff;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#GroupReflection div{
+  height: 3px;
+  width: 100px;
+  background-image: linear-gradient(to right,#d6ed17ff,#9fa2a7);
+  margin-left: auto;
+  margin-top: 35px;
+  margin-right: auto;
+}
+#GroupReflection .OverText{
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 25px;
+  font-size: 16px;
+  color:#ddd;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#GroupReflection .UnderText{
+  padding:45px;
+  font-size: 14px;
+  line-height: 1.5;
+  color:#9fa2a7;
+  columns: 2;
+  column-rule: 1px solid #ccc;
+  column-gap:50px;
+}
+.ending{
+  background-color: rgba(255,255,255,.9);
+  padding-left: 5%;
+  padding-right: 5%;
+  color: black;
+  height:auto;
+}
+.ending container{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+}
+.ending container img{
+  height: 120px;
+  width: 120px;
+}
+.ending container h1{
+  font-size: 40px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  font-weight: boldest;
+}
+.ending container h2{
+  margin-top: 25px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: boldest;
+}
+.ending container p{
+  max-width: 300px;
+  color: #222;
+  font-size: 13px;
+}
+.ending container folder{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.ending div{
+  margin-top: 5px;
+  width: 64%;
+  margin-left: 16%;
+  background-color: #222;
+  height: 1px;
+}
+.ending container1 {
+  display: flex;
+  justify-content: center;
+}
+.ending container1 holder{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.ending container1 h3{
+  margin-top: 25px;
+  font-size: 16px;
+}
+.ending container1 p{
+  max-width: 300px;
+  color: #222;
+  font-size: 14px;
 }
