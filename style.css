@@ -974,3 +974,138 @@ padding-top:50px ;
   margin-bottom: 5px;
   background-image:linear-gradient(to right,#00b7ff,#ffffc7 );
 }
+#FeedBack{
+  margin-top: 40px;
+  position:relative;
+  width: 100%;
+  height: 670px;
+}
+#FeedBack .selection{
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+#FeedBack .selection img{
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,.5);
+}
+#FeedBack .selection div{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 65px;
+  font-weight: bolder;
+  margin-top: 10px;;
+  text-align: center;
+  text-transform: uppercase;
+  color: #d6ed17ff;
+}
+#FeedBack .selection p{
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: 12px;
+  margin-top: 10px;;
+  text-align: center;
+  color: #9fa2a7;
+}
+#FeedBack .selection img:hover{
+  filter: brightness(65%);
+}
+#FeedBack .container{
+  width: 100%;
+  height: auto;
+}
+#FeedBack .container .image{
+  position: relative;
+  display: block;
+  width: 40%;
+  height: inherit;
+}
+#FeedBack .container .image img{
+  position:absolute;
+  right:140px;
+}
+.Appearance{
+  animation-name: entrance;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+@keyframes entrance{
+  0%{
+    right:-40px;
+    filter: blur(15px);
+    opacity: 0;
+  }
+  50%{
+    filter: blur(3px);
+    opacity: 0.9;
+
+  }
+  100%{
+    right:140px;
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+#FeedBack .container .feedback{
+  margin-top: 40px;
+  display: block;
+  float:right;
+  width: 60%;
+  height: auto;
+}
+#FeedBack .container .feedback .ChatBox{
+  position:relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  width: 90%;
+  padding: 0px;
+  background-color: #26272b;
+  border-radius: 20px;
+  height: 100px;
+}
+#FeedBack .container .feedback .ChatBox p{
+  position: absolute;
+  font-size: 12px;
+  top:6px;
+  left: 10px;
+  color:#9fa2a7;
+  padding: 4px;
+}
+#firstComment::after{
+  color: white;
+  content: '-Khoa';
+  display: inline;
+  font-size: 16px;
+  font-style: italic;
+  float: right;
+}
+#secondComment::after{
+  color: white;
+  content: '-Kent';
+  display: inline;
+  font-size: 16px;
+  font-style: italic;
+  float: right;
+}
+#thirdComment::after{
+  color: white;
+  content: '-Phong';
+  display: inline;
+  font-size: 16px;
+  font-style: italic;
+  float: right;
+}
+#forthComment::after{
+  color: white;
+  content: '-Nhat';
+  display: inline;
+  font-size: 16px;
+  font-style: italic;
+  float: right;
+}
