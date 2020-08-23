@@ -73,3 +73,44 @@ function Select(index)
       document.getElementById('IdealJobTab').style.opacity="1";
   }
 }
+function Judgement(index)
+{
+
+  if(index==0)
+  {
+    document.getElementById('Threat').src='NexieThreatKhoa.png';
+    document.getElementById('firstComment').innerHTML="My work is providing team good design, I think it is safe to say to I do the most work among us. At the beginning, I delayed my works for a week to do my individual project but hopefully, I catched up with everyone in the next week. I worked hard mostly because the pace of working is slower than I thought. Overall, I have learnt much along the project as I began my first JavaScript and self-taught on it. I believe I could make an awesome website of my own now.";
+    document.getElementById('secondComment').innerHTML="in everylost, for every dream";
+    document.getElementById('thirdComment').innerHTML="With somethign to believe in";
+    document.getElementById('forthComment').innerHTML="With somethign to believe in";
+  }
+  if(index==1)
+  {
+    document.getElementById('Threat').src='NexieThreatKent.png';
+    document.getElementById('firstComment').innerHTML="Kent is putting his Pro in procastinator! He seems a bit busy and he did not focus on the work. This results in the lateness of his submission onto our deadlines. Kent sometimes forgot references and did not pay much attention on the content. Besides, the good point about him is he is the one that make calls and organize works.";
+    document.getElementById('secondComment').innerHTML="in everylost, for every dream";
+    document.getElementById('thirdComment').innerHTML="With somethign to believe in";
+    document.getElementById('forthComment').innerHTML="With somethign to believe in";
+  }
+  if(index==2)
+  {
+    document.getElementById('Threat').src='NexieThreatPhong.png';
+    document.getElementById('firstComment').innerHTML="Phong usually extends the partial deadline we set, however, his content is relevant and fully completed. It is a bit disappointing as he was said to be exellent at JavaScript but he hasn't do much mind-blowing things. Anyway, to me, Phong is friendly and reliable though his work was sometimes late but the quality is exellent. He could be a person who I can entrust the work on especially when he manages his time smarter.";
+    document.getElementById('secondComment').innerHTML="in everylost, for every dream";
+    document.getElementById('thirdComment').innerHTML="With somethign to believe in";
+    document.getElementById('forthComment').innerHTML="With somethign to believe in";
+  }
+  if(index==3)
+  {
+    document.getElementById('Threat').src='NexieThreatNhat.png';
+    document.getElementById('firstComment').innerHTML="Nhat always finishes the work on time, he is also a skillful programmer in our group, but hidden! I think his content is good-quality and the work is in exellent state. The only problem with him is that he does not begin the work if we was not told. It is kinda passive, but he could improve it. So maybe next time, if he could pick the available work rather than waiting for others.";
+    document.getElementById('secondComment').innerHTML="in everylost, for every dream";
+    document.getElementById('thirdComment').innerHTML="With somethign to believe in";
+    document.getElementById('forthComment').innerHTML="With somethign to believe in";
+  }
+var ele=document.getElementById('Threat');
+ele.preventDefault;
+ele.classList.remove("Appearance");
+void ele.offsetWidth;
+ele.classList.add("Appearance");
+}

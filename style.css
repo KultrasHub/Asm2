@@ -740,6 +740,7 @@ padding-top:50px ;
   color: white;
   transition: all 0.7s;
   font-size: 20px;
+  z-index: 3;
 }
 .Slide .next:hover, .Slide .prev:hover{
   opacity: 1;
@@ -895,4 +896,340 @@ padding-top:50px ;
   font-size: 10px;
   color: #9fa2a7;
   text-transform: uppercase;
+}
+.OpeningProject{
+  position: relative;
+  width:100%;
+  margin-top: 200px;
+}
+.OpeningProject .white{
+
+  background-color: rgba(0,0,0,.7);
+  border-top: 3px solid rgba(255,255,255,.5);
+  transform: skewY(-6deg);
+  width: 100%;
+  height: 300px;
+  margin-bottom: -250px;
+  z-index: 0;
+}
+.OpeningProject .black{
+
+  background-color: rgba(255,255,255,.05);
+  border-top: 3px solid rgba(255,255,255,.1);
+  margin-top:-25px;
+  width: 100%;
+  height: 200px;
+}
+.OpeningProject .red{
+  font-size: 85px;
+  font-weight: bold;
+  margin-left: 100px;
+  transform: skewY(6deg);
+  color: #d6ed17ff;
+  text-transform: uppercase;
+}
+.OpeningProject .white img{
+  position: absolute;
+  top: -160px;
+  right:40px;
+  transform: skewY(6deg);
+}
+#ProjectIdeas{
+  margin-top: 100px;
+  border-radius: 20px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #26272b;
+  font-size: 14px;
+  box-shadow: -5px 5px 5px 2px rgba(0,0,0,.5);
+  padding: 20px;
+  z-index: 2;
+  transform: translate(0px);
+}
+#ProjectIdeas h1{
+  margin-top: 10px;
+  color: #d6ed17ff;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  z-index: 2;
+}
+#ProjectIdeas p{
+  line-height: 1.5;
+  border-radius: 20px;
+  padding: 20px;
+  -moz-box-shadow:    inset 0 0 12px rgba(0,0,0,.8);
+  -webkit-box-shadow: inset 0 0 12px rgba(0,0,0,.8);
+  box-shadow:         inset 0 0 12px rgba(0,0,0,.8);
+  background-color: #141517;
+  margin-bottom: 5px;
+  bottom: 20px;
+  z-index: 2;
+}
+#ProjectIdeas div{
+  width: 200px;
+  height: 6px;
+  margin-left: 30px;
+  margin-bottom: 5px;
+  background-image:linear-gradient(to right,#00b7ff,#ffffc7 );
+}
+#FeedBack{
+  margin-top: 40px;
+  position:relative;
+  width: 100%;
+  height: 600px;
+}
+#FeedBack .selection{
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+#FeedBack .selection img{
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,.5);
+}
+#FeedBack .selection div{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 65px;
+  font-weight: bolder;
+  margin-top: 10px;;
+  text-align: center;
+  text-transform: uppercase;
+  color: #d6ed17ff;
+}
+#FeedBack .selection p{
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: 12px;
+  margin-top: 10px;;
+  text-align: center;
+  color: #9fa2a7;
+}
+#FeedBack .selection img:hover{
+  filter: brightness(65%);
+}
+#FeedBack .container{
+  width: 100%;
+  height: auto;
+}
+#FeedBack .container .image{
+  position: relative;
+  display: block;
+  width: 40%;
+  height: inherit;
+}
+#FeedBack .container .image img{
+  position:absolute;
+  right:140px;
+}
+.Appearance{
+  animation-name: entrance;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+@keyframes entrance{
+  0%{
+    right:-40px;
+    filter: blur(15px);
+    opacity: 0;
+  }
+  50%{
+    filter: blur(3px);
+    opacity: 0.9;
+
+  }
+  100%{
+    right:140px;
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+#FeedBack .container .feedback{
+  margin-top: 40px;
+  display: block;
+  float:right;
+  width: 60%;
+  height: auto;
+}
+#FeedBack .container .feedback .ChatBox{
+  position:relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  width: 90%;
+  padding: 0px;
+  background-color: #26272b;
+  border-radius: 20px;
+  height: 100px;
+}
+#FeedBack .container .feedback .ChatBox p{
+  position: absolute;
+  font-size: 12px;
+  top:6px;
+  left: 10px;
+  color:#9fa2a7;
+  padding: 4px;
+}
+#firstComment::after{
+  color: white;
+  content: '-Khoa';
+  display: inline;
+  font-size: 16px;
+  font-style: italic;
+  float: right;
+}
+#secondComment::after{
+  color: white;
+  content: '-Kent';
+  display: inline;
+  font-size: 16px;
+  font-style: italic;
+  float: right;
+}
+#thirdComment::after{
+  color: white;
+  content: '-Phong';
+  display: inline;
+  font-size: 16px;
+  font-style: italic;
+  float: right;
+}
+#forthComment::after{
+  color: white;
+  content: '-Nhat';
+  display: inline;
+  font-size: 16px;
+  font-style: italic;
+  float: right;
+}
+#member4 {
+  margin-top: 10px;
+  background-color: #222;
+}
+.motiveBG{
+
+  width: 100%;
+  margin-top: 50px;
+  background-color: #222;
+}
+.ReflectionCall{
+  position:relative;
+}
+.ReflectionCall div{
+  width: 64%;
+  border-bottom: 1px solid #9fa2a7;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ReflectionCall p{
+  text-align: center;
+  font-size: 10px;
+  color: #9fa2a7;
+  text-transform: uppercase;
+}
+#GroupReflection h1{
+  text-align: center;
+  padding-top: 15px;
+  color: #d6ed17ff;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#GroupReflection div{
+  height: 3px;
+  width: 100px;
+  background-image: linear-gradient(to right,#d6ed17ff,#9fa2a7);
+  margin-left: auto;
+  margin-top: 35px;
+  margin-right: auto;
+}
+#GroupReflection .OverText{
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 25px;
+  font-size: 16px;
+  color:#ddd;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#GroupReflection .UnderText{
+  padding:45px;
+  font-size: 14px;
+  line-height: 1.5;
+  color:#9fa2a7;
+  columns: 2;
+  column-rule: 1px solid #ccc;
+  column-gap:50px;
+}
+.ending{
+  background-color: rgba(255,255,255,.9);
+  padding-left: 5%;
+  padding-right: 5%;
+  color: black;
+  height:auto;
+}
+.ending container{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+}
+.ending container img{
+  height: 120px;
+  width: 120px;
+}
+.ending container h1{
+  font-size: 40px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  font-weight: boldest;
+}
+.ending container h2{
+  margin-top: 25px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: boldest;
+}
+.ending container p{
+  max-width: 300px;
+  color: #222;
+  font-size: 13px;
+}
+.ending container folder{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.ending div{
+  margin-top: 5px;
+  width: 64%;
+  margin-left: 16%;
+  background-color: #222;
+  height: 1px;
+}
+.ending container1 {
+  display: flex;
+  justify-content: center;
+}
+.ending container1 holder{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.ending container1 h3{
+  margin-top: 25px;
+  font-size: 16px;
+}
+.ending container1 p{
+  max-width: 300px;
+  color: #222;
+  font-size: 14px;
 }
