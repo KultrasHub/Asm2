@@ -89,7 +89,7 @@ function Judgement(index)
     document.getElementById('Threat').src='NexieThreatKent.png';
     document.getElementById('firstComment').innerHTML="Kent is putting his Pro in procastinator! He seems a bit busy and he did not focus on the work. This results in the lateness of his submission onto our deadlines. Kent sometimes forgot references and did not pay much attention on the content. Besides, the good point about him is he is the one that make calls and organize works.";
     document.getElementById('secondComment').innerHTML="in everylost, for every dream";
-    document.getElementById('thirdComment').innerHTML="With somethign to believe in";
+    document.getElementById('thirdComment').innerHTML="Despite being new into the I.T world, Khang plays such an amazing leader role in the group. While Khoa excels at coding, Khang keeps the team in touch, setting up meetings to summarize the current state of everyone in the team, ignoring his lack of coding knowledge he still gives out innovative ideas to improve on our website and whenever there is something that he does not understand, he is not afraid to ask about it nor give his opinion onto the questions, and sometimes it helps us spot some mistakes when doing our work.";
     document.getElementById('forthComment').innerHTML="With somethign to believe in";
   }
   if(index==2)
