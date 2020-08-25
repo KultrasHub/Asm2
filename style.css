@@ -588,6 +588,7 @@ padding-top:50px ;
   line-height: 1.5;
   margin-left: 5%;
   width:90%;
+  font-size: 14px;
   float: left;
 }
 .topPanel{
@@ -1058,6 +1059,12 @@ padding-top:50px ;
   width: 60%;
   height: auto;
 }
+#FeedBack .container .feedback h1h1{
+  font-size: 16px;
+  color: #9fa2a7;
+  text-transform: uppercase;
+  margin-left: 30px;
+}
 #FeedBack .container .feedback .ChatBox{
   position:relative;
   margin-top: 10px;
@@ -1232,4 +1239,10 @@ padding-top:50px ;
   max-width: 300px;
   color: #222;
   font-size: 14px;
+}
+.AsaGroup{
+
+}
+.a{
+background-color: red;
 }
