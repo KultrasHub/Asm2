@@ -105,7 +105,7 @@ function Judgement(index)
     document.getElementById('Threat').src='NexieThreatNhat.png';
     document.getElementById('firstComment').innerHTML="Nhat always finishes the work on time, he is also a skillful programmer in our group, but hidden! I think his content is good-quality and the work is in exellent state. The only problem with him is that he does not begin the work if we was not told. It is kinda passive, but he could improve it. So maybe next time, if he could pick the available work rather than waiting for others.";
     document.getElementById('secondComment').innerHTML="in everylost, for every dream";
-    document.getElementById('thirdComment').innerHTML="With somethign to believe in";
+    document.getElementById('thirdComment').innerHTML="I hope that in the next assignment I will get to work with him more because as of right now the amount of interaction between me and Nhat is not enough for me to give out a descriptive of his performance overall as a member, though there is no denying that the tasks that were given out to all of us, reading through his sections he has outdone himself nailing every single part of the details that are required from his researches, the level of descriptive of his content is on a professional level as well as his time management skills, always finish on time and fully prepared.";
     document.getElementById('forthComment').innerHTML="With somethign to believe in";
   }
 var ele=document.getElementById('Threat');
