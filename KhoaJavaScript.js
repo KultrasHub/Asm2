@@ -81,7 +81,7 @@ function Judgement(index)
     document.getElementById('Threat').src='NexieThreatKhoa.png';
     document.getElementById('firstComment').innerHTML="My work is providing team good design, I think it is safe to say to I do the most work among us. At the beginning, I delayed my works for a week to do my individual project but hopefully, I catched up with everyone in the next week. I worked hard mostly because the pace of working is slower than I thought. Overall, I have learnt much along the project as I began my first JavaScript and self-taught on it. I believe I could make an awesome website of my own now.";
     document.getElementById('secondComment').innerHTML="in everylost, for every dream";
-    document.getElementById('thirdComment').innerHTML="With somethign to believe in";
+    document.getElementById('thirdComment').innerHTML="Khoa is by far the strongest member in our group. He started off the same place as us, new into web designing but the amount of time that takes him to learn the languages are remarkable. He always keeps us on our feet, staying in contact reporting the things that are finished and the things that are still missing content. Most of the line of codes that are written inside our websites are based on his design. A very hard-working member with a strong inquisitive spirit, I just can not stop myself from being amazed at his skills.";
     document.getElementById('forthComment').innerHTML="With somethign to believe in";
   }
   if(index==1)
@@ -97,7 +97,7 @@ function Judgement(index)
     document.getElementById('Threat').src='NexieThreatPhong.png';
     document.getElementById('firstComment').innerHTML="Phong usually extends the partial deadline we set, however, his content is relevant and fully completed. It is a bit disappointing as he was said to be exellent at JavaScript but he hasn't do much mind-blowing things. Anyway, to me, Phong is friendly and reliable though his work was sometimes late but the quality is exellent. He could be a person who I can entrust the work on especially when he manages his time smarter.";
     document.getElementById('secondComment').innerHTML="in everylost, for every dream";
-    document.getElementById('thirdComment').innerHTML="With somethign to believe in";
+    document.getElementById('thirdComment').innerHTML="Looking back at the assignment for our group project, I was not proud of myself for the fact that I did not do my best contributing into the project comparing to other members, my biggest problem still remains submitting late assigned section onto our website and giving my writing part for the other members to implement onto their section. I will be sure to improve on my flaws as I proceed working together along with my friends instead of becoming an obstacle throughout the assignments.";
     document.getElementById('forthComment').innerHTML="With somethign to believe in";
   }
   if(index==3)
