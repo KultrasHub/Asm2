@@ -82,15 +82,15 @@ function Judgement(index)
     document.getElementById('firstComment').innerHTML="My work is providing team good design, I think it is safe to say to I do the most work among us. At the beginning, I delayed my works for a week to do my individual project but hopefully, I catched up with everyone in the next week. I worked hard mostly because the pace of working is slower than I thought. Overall, I have learnt much along the project as I began my first JavaScript and self-taught on it. I believe I could make an awesome website of my own now.";
     document.getElementById('secondComment').innerHTML="in everylost, for every dream";
     document.getElementById('thirdComment').innerHTML="Khoa is by far the strongest member in our group. He started off the same place as us, new into web designing but the amount of time that takes him to learn the languages are remarkable. He always keeps us on our feet, staying in contact reporting the things that are finished and the things that are still missing content. Most of the line of codes that are written inside our websites are based on his design. A very hard-working member with a strong inquisitive spirit, I just can not stop myself from being amazed at his skills.";
-    document.getElementById('forthComment').innerHTML="With somethign to believe in";
+    document.getElementById('forthComment').innerHTML="Khoa, who is pretty good at coding already, therefore he is a guy who designed our website. His coding compared with other members is completely different. Therefore, he usually reminds us to keep track of the assignment.";
   }
   if(index==1)
   {
     document.getElementById('Threat').src='NexieThreatKent.png';
     document.getElementById('firstComment').innerHTML="Kent is putting his Pro in procastinator! He seems a bit busy and he did not focus on the work. This results in the lateness of his submission onto our deadlines. Kent sometimes forgot references and did not pay much attention on the content. Besides, the good point about him is he is the one that make calls and organize works.";
     document.getElementById('secondComment').innerHTML="in everylost, for every dream";
-    document.getElementById('thirdComment').innerHTML="With somethign to believe in";
-    document.getElementById('forthComment').innerHTML="With somethign to believe in";
+    document.getElementById('thirdComment').innerHTML="Despite being new into the I.T world, Khang plays such an amazing leader role in the group. While Khoa excels at coding, Khang keeps the team in touch, setting up meetings to summarize the current state of everyone in the team, ignoring his lack of coding knowledge he still gives out innovative ideas to improve on our website and whenever there is something that he does not understand, he is not afraid to ask about it nor give his opinion onto the questions, and sometimes it helps us spot some mistakes when doing our work.";
+    document.getElementById('forthComment').innerHTML="Kent, he is great in coming up with ideas for the project but his idea is actually kind of impossible for us at this time, his ideas always big and needs to spend years to complete. Therefore, I will not say it is his weakness, it is great but it is quite not realistic.";
   }
   if(index==2)
   {
@@ -98,7 +98,7 @@ function Judgement(index)
     document.getElementById('firstComment').innerHTML="Phong usually extends the partial deadline we set, however, his content is relevant and fully completed. It is a bit disappointing as he was said to be exellent at JavaScript but he hasn't do much mind-blowing things. Anyway, to me, Phong is friendly and reliable though his work was sometimes late but the quality is exellent. He could be a person who I can entrust the work on especially when he manages his time smarter.";
     document.getElementById('secondComment').innerHTML="in everylost, for every dream";
     document.getElementById('thirdComment').innerHTML="Looking back at the assignment for our group project, I was not proud of myself for the fact that I did not do my best contributing into the project comparing to other members, my biggest problem still remains submitting late assigned section onto our website and giving my writing part for the other members to implement onto their section. I will be sure to improve on my flaws as I proceed working together along with my friends instead of becoming an obstacle throughout the assignments.";
-    document.getElementById('forthComment').innerHTML="With somethign to believe in";
+    document.getElementById('forthComment').innerHTML="Phong, he is excellent at explaining all the requests that the assignment asks us to do. Thanks to him, our group is not as struggling as we think we will have faced, we are able to understand and get the assignment much easier and clearer.";
   }
   if(index==3)
   {
@@ -106,7 +106,7 @@ function Judgement(index)
     document.getElementById('firstComment').innerHTML="Nhat always finishes the work on time, he is also a skillful programmer in our group, but hidden! I think his content is good-quality and the work is in exellent state. The only problem with him is that he does not begin the work if we was not told. It is kinda passive, but he could improve it. So maybe next time, if he could pick the available work rather than waiting for others.";
     document.getElementById('secondComment').innerHTML="in everylost, for every dream";
     document.getElementById('thirdComment').innerHTML="I hope that in the next assignment I will get to work with him more because as of right now the amount of interaction between me and Nhat is not enough for me to give out a descriptive of his performance overall as a member, though there is no denying that the tasks that were given out to all of us, reading through his sections he has outdone himself nailing every single part of the details that are required from his researches, the level of descriptive of his content is on a professional level as well as his time management skills, always finish on time and fully prepared.";
-    document.getElementById('forthComment').innerHTML="With somethign to believe in";
+    document.getElementById('forthComment').innerHTML="I am an absolute neutral. I am like a combination of three of them, not including coding skill, I think that I am good at management that breaks down big tasks into small ones in order to let our team have the same amount of work.";
   }
 var ele=document.getElementById('Threat');
 ele.preventDefault;
