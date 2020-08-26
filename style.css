@@ -1178,8 +1178,16 @@ padding-top:50px ;
   column-gap:50px;
 }
 #GroupReflection .UnderText name{
-  color:#eee;
-  font-size: 20px;
+  color:#d6ed17;
+  font-size: 12px;
+}
+#GroupReflection .AsaGroup{
+  padding-left:45px;
+  padding-right: 45px;
+  margin-bottom: 20px;
+  color:#bbb;
+  font-size: 14px;
+  line-height: 1.5;
 }
 .ending{
   background-color: rgba(255,255,255,.9);
