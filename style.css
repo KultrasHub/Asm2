@@ -1177,6 +1177,10 @@ padding-top:50px ;
   column-rule: 1px solid #ccc;
   column-gap:50px;
 }
+#GroupReflection .UnderText name{
+  color:#eee;
+  font-size: 20px;
+}
 .ending{
   background-color: rgba(255,255,255,.9);
   padding-left: 5%;
@@ -1348,7 +1352,7 @@ padding-top:50px ;
   }
   90%{
     height: 1000px;
-  opacity: .5;
+  opacity: .9;
   }
   100%{
     height: auto;
