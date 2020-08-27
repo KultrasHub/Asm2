@@ -585,10 +585,10 @@ padding-top:50px ;
   position: relative;
   list-style: disc;
   display: list-item;
-  line-height: 1.5;
+  line-height: 1.4;
   margin-left: 5%;
-  width:90%;
-  font-size: 14px;
+  width:95%;
+  font-size: 13px;
   float: left;
 }
 .topPanel{
